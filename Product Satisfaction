@@ -1,0 +1,188 @@
+Customer Experience & Product Satisfaction Analysis
+Overview
+
+This project focuses on analyzing customer satisfaction, product experience, and renewal behavior for a healthcare insurance service provider using survey-based Net Promoter Score (NPS) analytics. The objective was to identify the key factors influencing customer loyalty, dissatisfaction, and retention through data-driven insights and interactive dashboards.
+
+Using Python, Power BI, and VBA, the analysis transformed raw customer feedback into actionable business recommendations that could support product improvement strategies, customer engagement initiatives, and service optimization efforts.
+
+The project analyzed 231 customer survey responses and achieved an overall NPS score of +15, highlighting both strengths in customer trust and critical gaps in pricing perception, communication, and renewal experience.
+
+Business Problem
+
+Healthcare insurance providers often face challenges in balancing customer trust, pricing expectations, and long-term retention. While customers may appreciate the service quality during claims, dissatisfaction can grow due to:
+
+Rising premium costs
+Poor communication during renewals
+Lack of perceived value among customers who never claim benefits
+Long support wait times
+Weak loyalty recognition for long-term customers
+
+The objective of this project was to:
+
+Understand what drives customer satisfaction and dissatisfaction
+Identify high-risk customer segments
+Analyze customer sentiment and renewal behavior
+Recommend product and customer experience improvements
+Build dashboards for business stakeholders to monitor satisfaction trends
+Objectives
+Perform Net Promoter Score (NPS) analysis
+Identify drivers of customer satisfaction and dissatisfaction
+Segment customers by:
+Claim status
+Customer tenure
+Renewal behavior
+Conduct sentiment and text analysis on customer feedback
+Develop interactive Power BI dashboards
+Recommend actionable improvement strategies
+Tools & Technologies
+Tool	Purpose
+Python	Data cleaning, sentiment analysis, segmentation
+Power BI	Dashboard creation and KPI visualization
+VBA	Data automation and reporting support
+Excel	Initial data preparation and validation
+Dataset Information
+
+The dataset consisted of:
+
+231 customer survey responses
+Recommendation ratings (0–10 scale)
+Customer comments and feedback
+Claim history indicators
+Renewal method information
+Customer tenure data
+
+Key metrics analyzed:
+
+NPS Score
+Promoters, Passives, Detractors
+Average satisfaction ratings
+Segment-wise NPS performance
+Customer sentiment patterns
+Methodology
+1. Data Cleaning & Preparation
+Removed duplicate and incomplete records
+Standardized categorical fields
+Prepared customer segmentation labels
+Converted survey responses into analytical datasets
+2. NPS Classification
+
+Customers were categorized as:
+
+Promoters: Ratings 9–10
+Passives: Ratings 7–8
+Detractors: Ratings 0–6
+NPS Formula
+
+NPS=%Promoters−%Detractors
+
+Final NPS Results
+Promoters: 45%
+Passives: 26%
+Detractors: 30%
+Overall NPS: +15
+
+The analysis revealed that the customer experience was positive overall but vulnerable due to recurring concerns around pricing and renewal communication.
+
+Key Insights
+1. Pricing Was the Biggest Driver of Dissatisfaction
+
+Text analysis showed that customers frequently mentioned:
+
+Rising premiums
+Unclear price increases
+Poor value perception
+Lack of loyalty rewards
+
+Long-term customers especially felt penalized despite not making claims.
+
+2. Claim Usage Strongly Influenced Satisfaction
+
+Customers who had used insurance services were significantly more satisfied than those who had never claimed.
+
+Customer Type	NPS
+Claimed Members	27
+Non-Claimed Members	7
+
+This indicated that customers who never used the service struggled to perceive ongoing value from their insurance plans.
+
+3. Renewal Experience Impacted Customer Loyalty
+
+The analysis found:
+
+Auto-renew customers had the highest satisfaction
+Customers confused about renewal processes had the lowest ratings
+Poor communication during renewal negatively impacted customer trust
+
+Customers who did not understand how their renewal worked consistently produced lower satisfaction scores.
+
+4. Long-Tenure Customers Were High-Risk Segments
+
+Customers with 10+ years of tenure frequently expressed dissatisfaction due to:
+
+Rising premium costs
+Lack of loyalty recognition
+Weak communication regarding value
+
+This highlighted the importance of retention-focused customer engagement strategies.
+
+Dashboard Features
+
+The Power BI dashboards included:
+
+NPS scorecards
+Promoter vs Detractor analysis
+Customer segmentation dashboards
+Renewal behavior analysis
+Claim-status comparison visuals
+Customer sentiment trends
+Tenure-based satisfaction analysis
+Recommendations
+
+Based on the analysis, the following recommendations were proposed:
+
+Customer Experience Improvements
+Improve renewal communication clarity
+Reduce customer support wait times
+Introduce proactive customer callbacks
+Educate customers on available benefits
+Loyalty & Retention Strategies
+Reward long-term customers
+Build loyalty recognition programs
+Create targeted engagement journeys for non-claim customers
+Product & Pricing Enhancements
+Improve transparency around premium increases
+Communicate value more effectively
+Strengthen pricing justification messaging
+Future Enhancements
+
+Potential future improvements for the project include:
+
+Machine learning models for churn prediction
+Sentiment classification using NLP
+Regression analysis to identify strongest NPS drivers
+Real-time dashboard automation
+Time-series tracking of customer satisfaction trends
+Project Outcome
+
+The project successfully delivered:
+
+A structured customer satisfaction analytics framework
+Data-driven product improvement recommendations
+Interactive dashboards for stakeholder reporting
+Customer segmentation insights for retention strategy planning
+
+The analysis helped identify critical business opportunities around pricing communication, customer loyalty, and renewal experience optimization while supporting an overall NPS improvement initiative.
+
+Skills Demonstrated
+Data Analysis
+Customer Analytics
+Business Intelligence
+Power BI Dashboarding
+Python Data Processing
+Sentiment Analysis
+KPI Reporting
+Stakeholder Communication
+Agile Analytics Delivery
+Customer Segmentation
+Business Recommendations
+Data Visualization
